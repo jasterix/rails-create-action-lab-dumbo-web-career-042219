@@ -14,9 +14,5 @@ class StudentsController < ApplicationController
   def create
   end
   
-  private
-  def student_params
-    params.require(:student).permit
-  end
 
 end
